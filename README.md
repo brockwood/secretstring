@@ -1,9 +1,10 @@
 # SecretString
 
-SecretString is provides an encoding.TextUnmarshaler interface around a string
+SecretString provides an encoding.TextUnmarshaler interface around a string
 that will retrieve a secret stored in a project's 
 [Google Secret Manager](https://cloud.google.com/secret-manager/docs). It is
-meant to be used with Google Cloud Functions.
+meant to be used with Google Cloud Functions and 
+[Kelsey Hightower's envconfig library](https://github.com/kelseyhightower/envconfig).
 
 ## Requirements
 
